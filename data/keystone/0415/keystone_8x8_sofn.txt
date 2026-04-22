@@ -1,0 +1,257 @@
+C:\Users\C.Zhou3\Desktop\work\document\tmf882x\test_data>python collect_+-30_step_1.sh
+可用的串口设备如下：
+COM6 USB Serial Port (COM6)
+打开串口成功。
+COM6
+send data b'?R\r\n'
+detect serial
+receive :  b'?R\rOK\n\n'
+send data b'X-6000\r\n'
+axis x turn to -30
+receive :  b'OK\n'
+2026-04-15 10:46:44 set_x_to_-30.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:46:55 set_x_to_-29.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:47:06 set_x_to_-28.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:47:17 set_x_to_-27.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:47:28 set_x_to_-26.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:47:39 set_x_to_-25.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:47:50 set_x_to_-24.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:48:01 set_x_to_-23.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:48:12 set_x_to_-22.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:48:23 set_x_to_-21.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:48:34 set_x_to_-20.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:48:45 set_x_to_-19.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:48:56 set_x_to_-18.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:49:07 set_x_to_-17.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:49:18 set_x_to_-16.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:49:29 set_x_to_-15.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:49:40 set_x_to_-14.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:49:51 set_x_to_-13.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:50:02 set_x_to_-12.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:50:13 set_x_to_-11.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:50:24 set_x_to_-10.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:50:35 set_x_to_-9.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:50:46 set_x_to_-8.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:50:57 set_x_to_-7.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:51:08 set_x_to_-6.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:51:19 set_x_to_-5.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:51:30 set_x_to_-4.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:51:41 set_x_to_-3.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:51:52 set_x_to_-2.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:52:03 set_x_to_-1.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:52:14 set_x_to_0.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:52:25 set_x_to_1.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:52:36 set_x_to_2.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:52:47 set_x_to_3.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:52:58 set_x_to_4.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:53:09 set_x_to_5.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:53:20 set_x_to_6.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:53:31 set_x_to_7.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:53:42 set_x_to_8.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:53:53 set_x_to_9.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:54:04 set_x_to_10.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:54:15 set_x_to_11.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:54:26 set_x_to_12.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:54:37 set_x_to_13.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:54:48 set_x_to_14.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:54:59 set_x_to_15.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:55:10 set_x_to_16.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:55:21 set_x_to_17.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:55:32 set_x_to_18.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:55:43 set_x_to_19.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:55:54 set_x_to_20.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:56:05 set_x_to_21.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:56:16 set_x_to_22.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:56:27 set_x_to_23.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:56:38 set_x_to_24.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:56:49 set_x_to_25.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:57:00 set_x_to_26.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:57:11 set_x_to_27.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:57:22 set_x_to_28.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:57:33 set_x_to_29.00_y_to_0.00 delay:10s
+send data b'X+200\r\n'
+axis x add 1°
+receive :  b'X+200\rOK\n'
+2026-04-15 10:57:44 set_x_to_30.00_y_to_0.00 delay:10s
+send data b'X-6000\r\n'
+axis x turn to 0°
+receive :  b'OK\n'
+2026-04-15 10:58:04 set_x_to_0.00_y_to_0.00 delay:10s
+close success
