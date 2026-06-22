@@ -8,8 +8,13 @@
 
 # Makefile for TMF8829 MCU project
 
+BUILD_DIR = build
+$(BUILD_DIR):
+	mkdir -p $(BUILD_DIR)
+
 CC = gcc
-TARGET = tmf8829
+TARGET = $(BUILD_DIR)/tmf8829
+.DEFAULT_GOAL := all
 
 # Enable JSON logging (comment out to disable)
 ENABLE_JSON_LOGGING = 1
@@ -24,7 +29,7 @@ ENABLE_KEYSTONE = 1
 SRCS = main.c tmf8829.c tmf8829_driver.c tmf8829_frameparser.c tmf8829_shim.c
 
 # Object files
-OBJS = $(SRCS:.c=.o)
+OBJS = $(patsubst %.c,$(BUILD_DIR)/%.o,$(SRCS))
 
 # Compiler flags
 CFLAGS = -Wall -Wextra -O2
@@ -62,7 +67,7 @@ $(TARGET): $(OBJS)
 	$(CC) $(OBJS) -o $(TARGET) $(LDFLAGS)
 
 # Compile source files
-%.o: %.c
+$(BUILD_DIR)/%.o: %.c | $(BUILD_DIR)
 	$(CC) $(CFLAGS) -c $< -o $@ -MD -MP
 
 # Include auto-generated dependencies
@@ -70,7 +75,8 @@ $(TARGET): $(OBJS)
 
 # Clean build artifacts
 clean:
-	rm -f $(OBJS) $(TARGET) $(OBJS:.o=.d)
+	rm -rf $(BUILD_DIR)
+#	rm -f $(OBJS) $(TARGET) $(OBJS:.o=.d)
 
 # Clean and rebuild
 rebuild: clean all
