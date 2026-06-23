@@ -12,7 +12,19 @@ BUILD_DIR = build
 $(BUILD_DIR):
 	mkdir -p $(BUILD_DIR)
 
-CC = gcc
+CROSS_COMPILE ?=
+CC  := $(CROSS_COMPILE)gcc
+CXX := $(CROSS_COMPILE)g++
+
+SYSROOT := /home/developer/fsimx6sx-B2019.11/build/buildroot-2019.05.1-fsimx6sx-B2019.11/output/host/arm-buildroot-linux-gnueabihf/sysroot
+
+CFLAGS  += --sysroot=$(SYSROOT) -g
+CXXFLAGS  += --sysroot=$(SYSROOT) -g
+
+LDFLAGS += --sysroot=$(SYSROOT)
+
+ARCH ?=ARCH
+
 TARGET = $(BUILD_DIR)/tmf8829
 .DEFAULT_GOAL := all
 
@@ -32,7 +44,7 @@ SRCS = main.c tmf8829.c tmf8829_driver.c tmf8829_frameparser.c tmf8829_shim.c
 OBJS = $(patsubst %.c,$(BUILD_DIR)/%.o,$(SRCS))
 
 # Compiler flags
-CFLAGS = -Wall -Wextra -O2
+CFLAGS += -Wall -Wextra -O2
 
 # Add JSON logging support
 ifdef ENABLE_JSON_LOGGING
@@ -52,7 +64,7 @@ SRCS += tmf8829_keystone.c
 endif
 
 # Linker flags
-LDFLAGS = -lm -lpthread
+LDFLAGS += -lm -lpthread
 
 # Add zlib for JSON logging
 ifdef ENABLE_JSON_LOGGING

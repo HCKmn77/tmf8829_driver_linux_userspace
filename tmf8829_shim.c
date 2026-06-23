@@ -8,7 +8,7 @@
  ************************************************************************************
 */
 
-/** @file This is the shim for raspberry pi
+/** @file This is the shim for PicoCore
  * Defines, macro and functions to match the target platform.
  */
 
@@ -30,7 +30,7 @@
  *  PRINT_DEBUG: Controlled by --debug flag, prints debug and tracking information
  *  PRINT_INFO:  Always prints, prints errors and important messages
  */
-int g_debug_enabled = 0;
+int g_debug_enabled = 1;
 
 /////////////////////////////////////////////////
 
@@ -140,12 +140,12 @@ int32_t write_gpio(uint32_t gpio, uint32_t value)
 // spi implemented function
 
 #define SPI_CHANNEL                0
-#define SPI_MAX_SPEED              20000000
+#define SPI_MAX_SPEED              10000000 // 20000000
 #define SPI_WR_CMD                 0x02
 #define SPI_RD_CMD                 0x03
 
 static char data_buff[1024];
-static char *spi_devname = "/dev/spidev0.0";
+static char *spi_devname = "/dev/spidev4.0";
 static int fd_spi = -1;
 
 void print_data(unsigned char *data, int len, char *msg)

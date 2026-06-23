@@ -261,7 +261,7 @@ int main (int argc, char * argv[])
 
     PRINT_DEBUG("driver size:%zu, chip size:%zu\n", sizeof(tmf8829Driver), sizeof(tmf8829_chip));
 
-	tof_chip->gpiod_enable = 40;
+	tof_chip->gpiod_enable = 112; // GPIO_J1_40
     enablePinLow(tof_chip);
     if (enablePinHigh(tof_chip) == -1)
         return 0;

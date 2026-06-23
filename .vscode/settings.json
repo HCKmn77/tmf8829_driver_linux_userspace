@@ -1,0 +1,22 @@
+{
+    "FUS": {
+        // Target FuS Board
+        "BOARD_IP":"172.19.1.29",
+        "BOARD_ARCH":"arm64",
+        "BOARD_USER":"root",
+        "BOARD_PATH":"/root/tmf8829",
+
+        // Project Settings
+        "BINARY_DIR":"build",
+        "APP_NAME":"tmf8829",
+
+        // Cross Compile SDK
+        // "–":"/opt/fus-imx-wayland/6.1-mickledore/environment-setup-armv8a-poky-linux",
+
+        // Debug Settings
+        "MIMODE":"gdb",
+        "DEBUGGER_PATH":"/usr/bin/gdb", // On host device
+        "DEBUGGER_ARGS":"",
+        "DEBUG_PORT":"3000",
+    }
+}
